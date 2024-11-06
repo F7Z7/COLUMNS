@@ -19,6 +19,7 @@ body{
     display: grid;
     place-items: center;
     height: 350px;
+
 }
 .box1{
     background-color: #A2A9B0;
