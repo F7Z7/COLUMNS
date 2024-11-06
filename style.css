@@ -1,0 +1,48 @@
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.boxes{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 350px;
+}
+.box1,.box2,.box3{
+    padding:10px 10px 10px 10px;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    height: 350px;
+}
+.box1{
+    background-color: #A2A9B0;
+}
+.box2{
+    background-color: #1D2951;
+}
+.box3{
+    background-color:#3D3C3A;
+}
+.specs{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+   display: grid;
+}
+.name{
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+    /*background-color: red;*/
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 10px;
+    align-self: start;
+
+
+}
