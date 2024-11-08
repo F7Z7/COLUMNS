@@ -37,10 +37,12 @@ body {
 }
 
 .specs {
-    font-family: "Britannic Bold";
+    font-family:"Calibri Light";
     font-weight: 700;
     display: grid;
-    background-color: red;
+
+
+
 }
 
 .name {
@@ -54,8 +56,24 @@ body {
     align-self: start;
 
 
-}
 
+}
+.reputation{
+    background-color: blue;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+   text-align: center;
+
+
+
+
+
+}
+.reputation:hover{
+    transform: scale(1.2);
+     object-fit: contain;
+    overflow: visible;
+}
 .lrn {
     display: inline-block;
     text-decoration: none;
@@ -105,6 +123,9 @@ body {
 
 
 
+    }
+    .reputation:hover{
+        overflow: hidden;
     }
 
 }
