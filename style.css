@@ -45,7 +45,12 @@ body {
 
 
 }
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px
 
+}
 .name {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
@@ -59,6 +64,23 @@ body {
 
 
 }
+.logo {
+  width: 50px;            /* Set a fixed size for the circle */
+  height: 50px;           /* Maintain a square aspect ratio */
+  border-radius: 50%;     /* Make it circular */
+  overflow: hidden;       /* Ensure the logo doesn't overflow outside the circle */
+  display: flex;          /* Centering the logo inside the circle */
+  justify-content: center;
+  align-items: center;
+
+}
+
+.car-log {
+  width: 100%;            /* Make the SVG fit the width of the circle */
+  height: 100%;           /* Make the SVG fit the height of the circle */
+  object-fit: contain;    /* Scale the SVG to fit inside the circle, preserving aspect ratio */
+}
+
 .reputation, .design ,.perfo ,.technology{
    
     margin-bottom: 10px;
@@ -88,9 +110,12 @@ body {
 }
 
 .learn_more {
-    width: 50%;
-    text-align: center;
+    width: 100%;
     padding-top: 10px;
+    display: flex;
+    margin-left: 40px;
+
+
 
 
 
