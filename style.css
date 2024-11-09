@@ -20,7 +20,7 @@ body {
     overflow: hidden;
     display: grid;
     place-items: center;
-    height: 350px;
+    height: 450px;
 
 }
 
@@ -40,6 +40,7 @@ body {
     font-family:"Calibri Light";
     font-weight: 700;
     display: grid;
+    margin: 10px;
 
 
 
@@ -58,21 +59,20 @@ body {
 
 
 }
-.reputation{
-    background-color: blue;
+.reputation, .design ,.perfo ,.technology{
+   
     margin-bottom: 10px;
     transition: transform 0.3s ease;
-   text-align: center;
+     padding: 10px 10px;
 
 
 
 
 
 }
-.reputation:hover{
-    transform: scale(1.2);
-     object-fit: contain;
-    overflow: visible;
+.reputation:hover, .design:hover ,.perfo:hover ,.technology:hover{
+      background-color:#505050;
+        border-radius:10px;
 }
 .lrn {
     display: inline-block;
@@ -84,12 +84,14 @@ body {
     border: 2px solid transparent;
 
 
+
 }
 
 .learn_more {
     width: 50%;
     text-align: center;
     padding-top: 10px;
+
 
 
 }
