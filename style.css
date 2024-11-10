@@ -13,6 +13,8 @@ body {
     align-items: center;
     color: white;
     height: 350px;
+    width: 75%;
+
 }
 
 .box1, .box2, .box3 {
@@ -37,41 +39,41 @@ body {
 }
 
 .specs {
-    font-family:"Calibri Light";
+    font-family: "Calibri Light", sans-serif;
     font-weight: 700;
     display: grid;
     margin: 10px;
 
 
-
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-evenly;
     gap: 10px
 
 }
+
 .name {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     padding-bottom: 10px;
-    /*background-color: red;*/
     text-align: center;
     letter-spacing: 5px;
     padding-top: 10px;
     align-self: start;
 
 
-
 }
+
 .logo {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -80,21 +82,21 @@ body {
     height: 100%;
     object-fit: contain;
 }
-.reputation, .design ,.perfo ,.technology{
-   
+
+.reputation, .design, .perfo, .technology {
+
     margin-bottom: 10px;
     transition: transform 0.3s ease;
-     padding: 10px 10px;
-
-
-
+    padding: 10px 10px;
 
 
 }
-.reputation:hover, .design:hover ,.perfo:hover ,.technology:hover{
-      background-color:#505050;
-        border-radius:10px;
+
+.reputation:hover, .design:hover, .perfo:hover, .technology:hover {
+    background-color: #505050;
+    border-radius: 10px;
 }
+
 .lrn {
     display: inline-block;
     text-decoration: none;
@@ -105,7 +107,6 @@ body {
     border: 2px solid transparent;
 
 
-
 }
 
 .learn_more {
@@ -113,9 +114,6 @@ body {
     padding-top: 10px;
     display: flex;
     margin-left: 40px;
-
-
-
 
 
 }
@@ -132,9 +130,9 @@ body {
 @media (max-width: 600px) {
     .boxes {
         flex-direction: column;
-        width: 250px;
-
-
+        width: 300px;
+        justify-content: flex-start;
+        margin-bottom: auto;
 
 
     }
@@ -142,15 +140,14 @@ body {
     .box1, .box2, .box3 {
 
         display: flex;
-        justify-content: space-evenly;
+        padding: 10px;
         overflow: visible;
         flex-direction: column;
 
 
-
-
     }
-    .reputation:hover{
+
+    .reputation:hover {
         overflow: hidden;
     }
 
